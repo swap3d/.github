@@ -1,0 +1,54 @@
+name: Bug report
+description: Report a reproducible problem in a Swap3D open source project
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not include API keys, credentials, private model files, or personal data.
+        Use the repository security policy for suspected vulnerabilities.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Package, CLI, installer, or release version
+      placeholder: 0.2.3
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, runtime, architecture, and relevant tool versions
+      placeholder: macOS 15, arm64, Node.js 22
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction
+      description: Provide the smallest set of steps that reproduces the problem
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include sanitized logs or output when useful
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and pull requests.
+          required: true
+        - label: I removed credentials, private files, and personal data.
+          required: true

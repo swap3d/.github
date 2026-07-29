@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Product and account support
+    url: mailto:support@swap3d.studio
+    about: Get help with accounts, billing, API access, or the hosted service.
+  - name: Security report
+    url: https://github.com/swap3d/.github/security/policy
+    about: Report suspected vulnerabilities through the private process.
