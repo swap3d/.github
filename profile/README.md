@@ -5,6 +5,7 @@
 <p align="center">
   <a href="https://swap3d.studio/app">Web app</a> ·
   <a href="https://swap3d.studio/developer-api">Developer API</a> ·
+  <a href="https://github.com/swap3d/swap3d-js">JavaScript SDK</a> ·
   <a href="https://github.com/swap3d/swap3d-cli">CLI</a>
 </p>
 
@@ -23,6 +24,8 @@ cloud API for applications, automation, and developer workflows.
 
 | Repository | Description |
 | --- | --- |
+| [swap3d-openapi](https://github.com/swap3d/swap3d-openapi) | Canonical OpenAPI contract for the public developer API. |
+| [swap3d-js](https://github.com/swap3d/swap3d-js) | Official TypeScript and JavaScript SDK. |
 | [swap3d-cli](https://github.com/swap3d/swap3d-cli) | Official command-line client for the Swap3D developer API. |
 | [homebrew-tap](https://github.com/swap3d/homebrew-tap) | Homebrew distribution for Swap3D CLI. |
 
